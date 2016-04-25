@@ -1,11 +1,11 @@
 # Kalk
-Execute a command line calculator written in Perl
+  Execute a command line calculator written in Perl
 
 ## SYNOPSYS
     $ kalk [-h] [-v] expression
 
 ## DESCRIPTION
-This script reads command arguments as one algebraic expresseion, calculates it, and prints the answer with the input expression. Numbers can contain either commas or spaces in themselves like 1,017,283.
+  This script reads command arguments as one algebraic expresseion, calculates it, and prints the answer with the input expression. Numbers can contain either commas or spaces in themselves like 1,017,283.
   
 ## OPTIONS
     -h  Print help
@@ -25,7 +25,6 @@ This script reads command arguments as one algebraic expresseion, calculates it,
   Coded by Kohji OKAMURA, Ph.D
 
 ## HISTORY
-
   Apr 14, 2005  The initial version as calc.pl  
   Apr 18, 2005  Minor modification  
   May 31, 2007  POD and error message are added  
