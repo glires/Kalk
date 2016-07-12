@@ -2,10 +2,10 @@
   Execute a command line calculator written in Perl
 
 ## SYNOPSYS
-    $ kalk [-h] [-v] expression
+    kalk [-h] [-v] formula_with_spaces_and_commas
 
 ## DESCRIPTION
-  This script reads command arguments as one algebraic expresseion, calculates it, and prints the answer with the input expression. Numbers can contain either commas or spaces in themselves like 1,017,283.
+  This script reads command arguments as one algebraic expresseion, calculates it, and prints the answer with the input numerical formula. Numbers can contain either commas or spaces in themselves like 1,017,283 or 1 017 283.
   
 ## OPTIONS
     -h  Print help
@@ -16,6 +16,7 @@
     $ kalk -h
     $ kalk -v
     $ kalk 9+5
+    $ kalk 28 - 523
     $ kalk 2**8
     $ kalk '(57+139)*1.05/2'
     $ kalk sqrt 3
