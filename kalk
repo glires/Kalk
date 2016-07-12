@@ -6,14 +6,14 @@
 
 =head1 SYNOPSYS
 
-  $ kalk [-h] [-v] expression
+  $ kalk [-h] [-v] formula_with_spaces_and_commas
 
 =head1 DESCRIPTION
 
   This script reads command arguments as one algebraic expresseion,
-  calculates it, and prints the answer with the input expression.
+  calculates it, and prints the answer with the input numerical formula.
   Numbers can contain either commas or spaces in themselves
-  like 1,017,283.
+  like 1,017,283 or 1 017 283.
 
 =head1 OPTIONS
 
@@ -26,6 +26,7 @@
   $ kalk -h
   $ kalk -v
   $ kalk 9+5
+  $ kalk 723 - 1082
   $ kalk 2**8
   $ kalk '(57+139)*1.05/2'
   $ kalk sqrt 3
@@ -45,11 +46,12 @@
   Oct 13, 2010  Minor modification
   Jul 31, 2012  Print original input expression
   Apr 25, 2016  Renamed as Kalk from calc; released as Kalk ver. 1.0
+  Jul 12, 2016  Minor change in the POD; released as Kalk ver. 1.1
 
 =cut
 
 
-my $VERSION = '1.0';
+my $VERSION = '1.1';
 
 use warnings;
 use strict;
